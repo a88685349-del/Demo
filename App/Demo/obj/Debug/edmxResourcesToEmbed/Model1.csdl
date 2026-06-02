@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user182_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Demo_Polzovateli">
+    <Key>
+      <PropertyRef Name="polzovateli_id" />
+    </Key>
+    <Property Name="polzovateli_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="login_polzovatelya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="parol" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="imya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="familiya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="id_roli" Type="Int32" />
+    <Property Name="zablokirovan" Type="Boolean" />
+    <NavigationProperty Name="Demo_Roli" Relationship="Self.FK_Demo_Polzovateli_Demo_Roli" FromRole="Demo_Polzovateli" ToRole="Demo_Roli" />
+  </EntityType>
+  <EntityType Name="Demo_Roli">
+    <Key>
+      <PropertyRef Name="roli_id" />
+    </Key>
+    <Property Name="roli_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="naimenovaniye" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Demo_Polzovateli" Relationship="Self.FK_Demo_Polzovateli_Demo_Roli" FromRole="Demo_Roli" ToRole="Demo_Polzovateli" />
+  </EntityType>
+  <Association Name="FK_Demo_Polzovateli_Demo_Roli">
+    <End Role="Demo_Roli" Type="Self.Demo_Roli" Multiplicity="0..1" />
+    <End Role="Demo_Polzovateli" Type="Self.Demo_Polzovateli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Demo_Roli">
+        <PropertyRef Name="roli_id" />
+      </Principal>
+      <Dependent Role="Demo_Polzovateli">
+        <PropertyRef Name="id_roli" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="user182_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Demo_Polzovateli" EntityType="Self.Demo_Polzovateli" />
+    <EntitySet Name="Demo_Roli" EntityType="Self.Demo_Roli" />
+    <AssociationSet Name="FK_Demo_Polzovateli_Demo_Roli" Association="Self.FK_Demo_Polzovateli_Demo_Roli">
+      <End Role="Demo_Roli" EntitySet="Demo_Roli" />
+      <End Role="Demo_Polzovateli" EntitySet="Demo_Polzovateli" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

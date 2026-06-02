@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище user182_dbModelContainer" CdmEntityContainer="user182_dbEntities">
+    <EntitySetMapping Name="Demo_Polzovateli">
+      <EntityTypeMapping TypeName="user182_dbModel.Demo_Polzovateli">
+        <MappingFragment StoreEntitySet="Demo_Polzovateli">
+          <ScalarProperty Name="polzovateli_id" ColumnName="polzovateli_id" />
+          <ScalarProperty Name="login_polzovatelya" ColumnName="login_polzovatelya" />
+          <ScalarProperty Name="parol" ColumnName="parol" />
+          <ScalarProperty Name="imya" ColumnName="imya" />
+          <ScalarProperty Name="familiya" ColumnName="familiya" />
+          <ScalarProperty Name="otchestvo" ColumnName="otchestvo" />
+          <ScalarProperty Name="id_roli" ColumnName="id_roli" />
+          <ScalarProperty Name="zablokirovan" ColumnName="zablokirovan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Demo_Roli">
+      <EntityTypeMapping TypeName="user182_dbModel.Demo_Roli">
+        <MappingFragment StoreEntitySet="Demo_Roli">
+          <ScalarProperty Name="roli_id" ColumnName="roli_id" />
+          <ScalarProperty Name="naimenovaniye" ColumnName="naimenovaniye" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

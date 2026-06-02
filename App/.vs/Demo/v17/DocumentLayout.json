@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ROMA_W\\Desktop\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|c:\\users\\roma_w\\desktop\\demo\\demo\\windows\\userwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\windows\\userwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\windows\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\windows\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\windows\\adminwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\windows\\adminwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\windows\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\windows\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Demo||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\resources\\3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\resources\\3.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|C:\\Users\\ROMA_W\\Desktop\\Demo\\demo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2ABFC143-6587-42E1-A8C5-C7D07CB9A16A}|Demo\\Demo.csproj|solutionrelative:demo\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Demo",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Demo.csproj",
+              "RelativeDocumentMoniker": "Demo\\Demo.csproj",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Demo.csproj",
+              "RelativeToolTip": "Demo\\Demo.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-24T12:19:33.776Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Demo\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Demo\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwHwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T16:19:02.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "Demo\\Windows\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\AdminWindow.xaml",
+              "RelativeToolTip": "Demo\\Windows\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T14:36:34.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Demo\\Windows\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "Demo\\Windows\\AdminWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T10:33:08.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Demo\\Windows\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\MainWindow.xaml",
+              "RelativeToolTip": "Demo\\Windows\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-12T16:19:03.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\UserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Demo\\Windows\\UserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\UserWindow.xaml.cs",
+              "RelativeToolTip": "Demo\\Windows\\UserWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:11:57.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\UserWindow.xaml",
+              "RelativeDocumentMoniker": "Demo\\Windows\\UserWindow.xaml",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Windows\\UserWindow.xaml",
+              "RelativeToolTip": "Demo\\Windows\\UserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T14:36:50.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Model1.edmx",
+              "RelativeDocumentMoniker": "Demo\\Model1.edmx",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Demo\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-05-29T11:35:30.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "Demo\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Model1.Context.cs",
+              "RelativeToolTip": "Demo\\Model1.Context.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T11:36:57.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "Demo\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Model1.Context.tt",
+              "RelativeToolTip": "Demo\\Model1.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-29T12:39:00.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\App.config",
+              "RelativeDocumentMoniker": "Demo\\App.config",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\App.config",
+              "RelativeToolTip": "Demo\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-16T14:57:18.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "3.png - PNG [702x702, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Resources\\3.png",
+              "RelativeDocumentMoniker": "Demo\\Resources\\3.png",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\Resources\\3.png - PNG [702x702, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "RelativeToolTip": "Demo\\Resources\\3.png - PNG [702x702, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-03-24T12:20:50.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\App.xaml",
+              "RelativeDocumentMoniker": "Demo\\App.xaml",
+              "ToolTip": "C:\\Users\\ROMA_W\\Desktop\\Demo\\Demo\\App.xaml",
+              "RelativeToolTip": "Demo\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-16T14:31:30.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

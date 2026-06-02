@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище user182_dbModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Demo_Polzovateli">
+          <Key>
+            <PropertyRef Name="polzovateli_id" />
+          </Key>
+          <Property Name="polzovateli_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="login_polzovatelya" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="parol" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="imya" Type="nvarchar" MaxLength="50" />
+          <Property Name="familiya" Type="nvarchar" MaxLength="50" />
+          <Property Name="otchestvo" Type="nvarchar" MaxLength="50" />
+          <Property Name="id_roli" Type="int" />
+          <Property Name="zablokirovan" Type="bit" />
+        </EntityType>
+        <EntityType Name="Demo_Roli">
+          <Key>
+            <PropertyRef Name="roli_id" />
+          </Key>
+          <Property Name="roli_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="naimenovaniye" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Demo_Polzovateli_Demo_Roli">
+          <End Role="Demo_Roli" Type="Self.Demo_Roli" Multiplicity="0..1" />
+          <End Role="Demo_Polzovateli" Type="Self.Demo_Polzovateli" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Demo_Roli">
+              <PropertyRef Name="roli_id" />
+            </Principal>
+            <Dependent Role="Demo_Polzovateli">
+              <PropertyRef Name="id_roli" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище user182_dbModelContainer">
+          <EntitySet Name="Demo_Polzovateli" EntityType="Self.Demo_Polzovateli" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Demo_Roli" EntityType="Self.Demo_Roli" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Demo_Polzovateli_Demo_Roli" Association="Self.FK_Demo_Polzovateli_Demo_Roli">
+            <End Role="Demo_Roli" EntitySet="Demo_Roli" />
+            <End Role="Demo_Polzovateli" EntitySet="Demo_Polzovateli" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="user182_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Demo_Polzovateli">
+          <Key>
+            <PropertyRef Name="polzovateli_id" />
+          </Key>
+          <Property Name="polzovateli_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="login_polzovatelya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="parol" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="imya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="familiya" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="otchestvo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="id_roli" Type="Int32" />
+          <Property Name="zablokirovan" Type="Boolean" />
+          <NavigationProperty Name="Demo_Roli" Relationship="Self.FK_Demo_Polzovateli_Demo_Roli" FromRole="Demo_Polzovateli" ToRole="Demo_Roli" />
+        </EntityType>
+        <EntityType Name="Demo_Roli">
+          <Key>
+            <PropertyRef Name="roli_id" />
+          </Key>
+          <Property Name="roli_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="naimenovaniye" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Demo_Polzovateli" Relationship="Self.FK_Demo_Polzovateli_Demo_Roli" FromRole="Demo_Roli" ToRole="Demo_Polzovateli" />
+        </EntityType>
+        <Association Name="FK_Demo_Polzovateli_Demo_Roli">
+          <End Role="Demo_Roli" Type="Self.Demo_Roli" Multiplicity="0..1" />
+          <End Role="Demo_Polzovateli" Type="Self.Demo_Polzovateli" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Demo_Roli">
+              <PropertyRef Name="roli_id" />
+            </Principal>
+            <Dependent Role="Demo_Polzovateli">
+              <PropertyRef Name="id_roli" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="user182_dbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Demo_Polzovateli" EntityType="Self.Demo_Polzovateli" />
+          <EntitySet Name="Demo_Roli" EntityType="Self.Demo_Roli" />
+          <AssociationSet Name="FK_Demo_Polzovateli_Demo_Roli" Association="Self.FK_Demo_Polzovateli_Demo_Roli">
+            <End Role="Demo_Roli" EntitySet="Demo_Roli" />
+            <End Role="Demo_Polzovateli" EntitySet="Demo_Polzovateli" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище user182_dbModelContainer" CdmEntityContainer="user182_dbEntities">
+          <EntitySetMapping Name="Demo_Polzovateli">
+            <EntityTypeMapping TypeName="user182_dbModel.Demo_Polzovateli">
+              <MappingFragment StoreEntitySet="Demo_Polzovateli">
+                <ScalarProperty Name="polzovateli_id" ColumnName="polzovateli_id" />
+                <ScalarProperty Name="login_polzovatelya" ColumnName="login_polzovatelya" />
+                <ScalarProperty Name="parol" ColumnName="parol" />
+                <ScalarProperty Name="imya" ColumnName="imya" />
+                <ScalarProperty Name="familiya" ColumnName="familiya" />
+                <ScalarProperty Name="otchestvo" ColumnName="otchestvo" />
+                <ScalarProperty Name="id_roli" ColumnName="id_roli" />
+                <ScalarProperty Name="zablokirovan" ColumnName="zablokirovan" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Demo_Roli">
+            <EntityTypeMapping TypeName="user182_dbModel.Demo_Roli">
+              <MappingFragment StoreEntitySet="Demo_Roli">
+                <ScalarProperty Name="roli_id" ColumnName="roli_id" />
+                <ScalarProperty Name="naimenovaniye" ColumnName="naimenovaniye" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

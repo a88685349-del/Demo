@@ -1,0 +1,53 @@
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Windows\MainWindow.g.cs
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\App.g.cs
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo_Content.g.cs
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo_MarkupCompile.cache
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo_MarkupCompile.lref
+F:\УП07\ПУ\Модуль 4\Demo\Demo\bin\Debug\Demo.exe.config
+F:\УП07\ПУ\Модуль 4\Demo\Demo\bin\Debug\Demo.exe
+F:\УП07\ПУ\Модуль 4\Demo\Demo\bin\Debug\Demo.pdb
+F:\УП07\ПУ\Модуль 4\Demo\Demo\bin\Debug\EntityFramework.dll
+F:\УП07\ПУ\Модуль 4\Demo\Demo\bin\Debug\EntityFramework.SqlServer.dll
+F:\УП07\ПУ\Модуль 4\Demo\Demo\bin\Debug\EntityFramework.xml
+F:\УП07\ПУ\Модуль 4\Demo\Demo\bin\Debug\EntityFramework.SqlServer.xml
+F:\УП07\ПУ\Модуль 4\Demo\Demo\bin\Debug\ru\EntityFramework.resources.dll
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Windows\AdminWindow.g.cs
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Windows\UserWindow.g.cs
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Windows\MainWindow.baml
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Windows\AdminWindow.baml
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Windows\UserWindow.baml
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo.g.resources
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo.csproj.Up2Date
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo.exe
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Demo.pdb
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Windows\ModalUser.g.cs
+F:\УП07\ПУ\Модуль 4\Demo\Demo\obj\Debug\Windows\ModalUser.baml
+C:\Users\ROMA_W\Desktop\Demo\Demo\bin\Debug\Demo.exe.config
+C:\Users\ROMA_W\Desktop\Demo\Demo\bin\Debug\Demo.exe
+C:\Users\ROMA_W\Desktop\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\ROMA_W\Desktop\Demo\Demo\bin\Debug\EntityFramework.dll
+C:\Users\ROMA_W\Desktop\Demo\Demo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ROMA_W\Desktop\Demo\Demo\bin\Debug\EntityFramework.xml
+C:\Users\ROMA_W\Desktop\Demo\Demo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ROMA_W\Desktop\Demo\Demo\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo.csproj.AssemblyReference.cache
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Windows\AdminWindow.g.cs
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Windows\UserWindow.g.cs
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\App.g.cs
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo_Content.g.cs
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo_MarkupCompile.cache
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Windows\AdminWindow.baml
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Windows\MainWindow.baml
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Windows\UserWindow.baml
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo.g.resources
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo.Properties.Resources.resources
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo.csproj.GenerateResource.cache
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo.csproj.Up2Date
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo.exe
+C:\Users\ROMA_W\Desktop\Demo\Demo\obj\Debug\Demo.pdb

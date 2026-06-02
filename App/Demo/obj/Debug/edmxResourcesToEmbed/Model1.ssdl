@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище user182_dbModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Demo_Polzovateli">
+    <Key>
+      <PropertyRef Name="polzovateli_id" />
+    </Key>
+    <Property Name="polzovateli_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login_polzovatelya" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="parol" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="imya" Type="nvarchar" MaxLength="50" />
+    <Property Name="familiya" Type="nvarchar" MaxLength="50" />
+    <Property Name="otchestvo" Type="nvarchar" MaxLength="50" />
+    <Property Name="id_roli" Type="int" />
+    <Property Name="zablokirovan" Type="bit" />
+  </EntityType>
+  <EntityType Name="Demo_Roli">
+    <Key>
+      <PropertyRef Name="roli_id" />
+    </Key>
+    <Property Name="roli_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="naimenovaniye" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Demo_Polzovateli_Demo_Roli">
+    <End Role="Demo_Roli" Type="Self.Demo_Roli" Multiplicity="0..1" />
+    <End Role="Demo_Polzovateli" Type="Self.Demo_Polzovateli" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Demo_Roli">
+        <PropertyRef Name="roli_id" />
+      </Principal>
+      <Dependent Role="Demo_Polzovateli">
+        <PropertyRef Name="id_roli" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище user182_dbModelContainer">
+    <EntitySet Name="Demo_Polzovateli" EntityType="Self.Demo_Polzovateli" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Demo_Roli" EntityType="Self.Demo_Roli" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Demo_Polzovateli_Demo_Roli" Association="Self.FK_Demo_Polzovateli_Demo_Roli">
+      <End Role="Demo_Roli" EntitySet="Demo_Roli" />
+      <End Role="Demo_Polzovateli" EntitySet="Demo_Polzovateli" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
